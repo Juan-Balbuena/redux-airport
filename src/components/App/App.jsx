@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import Form from '../Form/Form.jsx';
+import Table from '../Table/Table.jsx';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
       {/* <input placeholder='Airline Name' />
       <button>Add Airline</button> */}
       <Form />
-      <table>{/* Airlines should be listed here */}</table>
+      <Table />
     </div>
   );
 }
